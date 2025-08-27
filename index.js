@@ -67,6 +67,9 @@ cards.forEach((card, index) => {
   });
 });
 
+document.getElementById('clear-call-history-btn').addEventListener('click', function name(params) {
+    callHistoryContainer.innerHTML = "";
+})
 
 
 
